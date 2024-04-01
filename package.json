@@ -1,0 +1,28 @@
+{
+  "name": "code_read_rock",
+  "version": "1.0.0",
+  "description": "blog forumish for my students with resources and lessons",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "lint": "prettier --config .prettierrc --write ."
+  },
+  "keywords": [
+    "edutech",
+    "javascript",
+    "postgres",
+    "mongodb",
+    "react"
+  ],
+  "author": "Junghoon Yoon",
+  "license": "ISC",
+  "dependencies": {
+    "@apollo/server": "^4.10.2",
+    "express": "^4.19.2",
+    "graphql": "^16.8.1"
+  },
+  "devDependencies": {
+    "prettier": "^3.2.5"
+  }
+}
